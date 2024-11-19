@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="./main.css">
+</head>
+
+<body class="page-homepage pageType-ContentPage template-pages-layout-landingLayout3Page  language-">
+
+	<header id=header>
+
+		<a id="header-banner" style="background:#e31c79; cursor: auto;" class="">
+			<img src="./image/NotDelivery_1140x70.png" alt="Доставка временно недоступна">
+		</a>
+
+		<div id=header-top class="topline">
+			<div class="block">
+				<ul class="topline__menu">
+					<li class="menu__entry">
+						<a href="#" class="menu__lnk">Регистрация бонусной карты</a>
+					</li>
+					<li class="menu__entry">
+						<a href="#" class="menu__lnk">Условия покупки</a>
+					</li>
+					<li class="menu__entry">
+						<a href="#" class="menu__lnk" target="_blank">Франшиза</a>
+					</li>
+					<li class="menu__entry">
+						<a href="#" class="menu__lnk">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div id=header-main class="header">
+			<div class="block clearfix">
+				<a href="/" class="logo logo_init"></a>
+				<div class="header__search dropdown">
+					<div class="search__wrapper">
+						<div class="headerContent secondRow">
+							<div>
+								<div class="ui-front">
+									<form name="search_form_SearchBox" method="get" action="/search/" class="search_form_top">
+										<input type="text" class="search__field js-site-search-input" name="qs" value='' maxlength="100"
+											placeholder="Поиск">
+									</form>
+									<a href="#" class="search__btn dropdown-toggle" data-toggle="dropdown"></a>
+								</div>
+							</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+				<div class="header__city dropdown">
+					<div class="body_overlay"></div>
+					Ваш город: <a class="city__current" href="#" data-toggle="modal">Санкт-Петербург</a>
+					<br>
+					<a href="#" class="city__points">45 магазинов, 42 ПВЗ </a>
+				</div>
+				<div class="header__contacts header__contacts_spb">
+					<div class="contacts__phone_spb">
+						<a href="tel:88124487090">8 (812) 448-70-90</a>
+					</div>
+					<a href="#" data-toggle="modal" class="contacts__btn_spb">заказать звонок</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id=header-nav class="topmenu_wrapper">
+			<div class="topmenu">
+				<div class="block">
+					<div class="topmenu__catalog">
+						<a id="topmenu-btn" class="catalog__toggler">
+							<span></span>
+							Каталог
+						</a>
+					</div>
+					<div id=header-nav-main class="topmenu__inner">
+						<ul class="topmenu__list">
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk">Акции</a>
+							</li>
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk">Магазины</a>
+							</li>
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk">Бренды</a>
+							</li>
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk" title="Статьи о животных">Статьи</a>
+							</li>
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk">Помоги приюту</a>
+							</li>
+							<li class="topmenu__entry">
+								<a href="#" class="topmenu__lnk">Ветаптека</a>
+							</li>
+						</ul>
+						<div class="topmenu__search">
+							<div class="search__wrapper">
+								<div class="headerContent secondRow">
+									<div>
+										<div class="ui-front">
+											<form name="search_form_SearchBox" method="get" action="/search/" class="search_form_top">
+												<input type="text" class="search__field js-site-search-input" name="qs" value='' maxlength="100"
+													placeholder="">
+											</form>
+											<a href="#" class="search__btn dropdown-toggle" data-toggle="dropdown"></a>
+										</div>
+									</div>
+									<div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="topmenu__login">
+						<div class="login__inner">
+							<a href="#" rel="nofollow" data-toggle="modal">Войти</a>
+						</div>
+					</div>
+					<div class="topmenu__basket topmenu__basket_filled dropdown">
+						<span class="basket__lnk dropdown-toggle" data-toggle="dropdown" style="cursor:pointer"></span>
+						<div class="basket__inner">
+							В корзине:<br>
+							<span class="basket__count">Нет товаров</span>
+						</div>
+						<div class="dropdown-menu basket__dropdown">
+							<div class="dropdown__inner">
+								<ul class="basket__list"></ul>
+							</div>
+							<div class="basket__total">
+								<a href="#" class="btn" rel="nofollow">перейти в корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<div class="body">
+			<div class="block">
+				<div class="index_features">
+					<ul class="features__list">
+						<li class="features__entry features__entry_action">
+							<a href="#" class="entry__inner">Акции</a>
+						</li>
+						<li class="features__entry features__entry_loyalty">
+							<a href="#" class="entry__inner">Программа лояльности</a>
+						</li>
+						<li class="features__entry features__entry_pay">
+							<a href="#" class="entry__inner">Удобная оплата</a>
+						</li>
+						<li class="features__entry features__entry_pickup">
+							<a href="#" class="entry__inner">Самовывоз заказа</a>
+						</li>
+					</ul>
+				</div>
+				<div class="index_banners">
+					<ul class="banners__list bxslider"></ul>
+					<div class="banners__nav" id="bx-pager"></div>
+				</div>
+				<div id="hp-oneday-banner" data-city="spb"></div>
+				<section id="nav-categories">
+					<ul>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_dog_new.webp" alt="Товары для собак">
+								</picture>
+								<b>Собакам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_cat_new.webp" alt="Товары для кошек">
+								</picture>
+								<b>Кошкам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_bird_new.webp" alt="Товары для птиц">
+								</picture>
+								<b>Птицам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_rat_new.webp" alt="Товары для грызунов">
+								</picture>
+								<b>Грызунам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_fish_new.webp" alt="Товары для рыб">
+								</picture>
+								<b>Рыбкам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_lizard_new.webp" alt="Товары для экзотических животных">
+								</picture>
+								<b>Экзотам</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_action_new.webp" alt="Акции по товарам для животных">
+								</picture>
+								<b>Акции</b>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<picture>
+									<img src="./image/category_article_new.webp" alt="Статьи">
+								</picture>
+								<b>Статьи</b>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section id="actionTabs" class="tabs tabs_oval tabs_action">
+					<input type="radio" id="actionTabsAction" name="actionTabs" checked>
+					<label for="actionTabsAction">Товары по акциям</label>
+					<!-- 	<section id="homepage"></section> -->
+					<input type="radio" id="actionTabsHit" name="actionTabs">
+					<label for="actionTabsHit">Хиты продаж</label>
+					<section id="hitsOfBrands"></section>
+					<input type="radio" id="actionTabsNewArrival" name="actionTabs">
+					<label for="actionTabsNewArrival">Новинки</label>
+					<section id="newArrival"></section>
+				</section>
+
+				<div class="catalog-showcase">
+					<a href="#" class="showcase__control showcase__control_prev"></a>
+					<a href="#" class="showcase__control showcase__control_next"></a>
+					<div class="showcase__container">
+						<ul class="catalog__list">
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="./image/catalog/1.jpg" alt="Supramil Таблетки для котят и кошек массой до 2 кг"
+											title="Supramil Таблетки для котят и кошек массой до 2 кг – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="5.0" data-items="6"></meter>
+								<div class="entry__title">Supramil</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Таблетки для котят и кошек массой до 2 кг,</div>
+								</div>
+
+								<div class="weight__empty">
+								</div>
+								<div class="entry__price">
+									<div class="price__current">510&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000215470" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000215470">
+										<input type="hidden" name="productNamePost"
+											value="Supramil Таблетки для котят и кошек массой до 2 кг">
+										<input type="hidden" name="productPostPrice" value="510.0">
+										<button type="submit" data-productcode="00000215470"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											5&nbsp;баллов</div>
+									</div>
+								</div>
+
+
+							</li>
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" data-productcode="00000027872" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="./image/catalog/2.png"
+											alt="Pronature Holistic Adult All Breeds Сухой корм для взрослых собак всех пород с чувствительной кожей и для шерсти (с лососем и коричневым рисом)"
+											title="Pronature Holistic Adult All Breeds Сухой корм для взрослых собак всех пород с чувствительной кожей и для шерсти (с лососем и коричневым рисом), 340 гр – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" data-code="00000027872" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="4.857142857142857" data-items="7"></meter>
+								<div class="entry__title">Pronature Holistic Adult All Breeds</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Сухой корм для взрослых собак всех пород с чувствительной кожей и для
+										шерсти с лососем и коричневым рисом</div>
+								</div>
+
+								<div class="weight__current">
+									<span>340 гр</span>
+								</div>
+								<div class="entry__price">
+									<div class="price__current">620&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000027872" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000027872">
+										<input type="hidden" name="productNamePost"
+											value="Pronature Holistic Adult All Breeds Сухой корм для взрослых собак всех пород с чувствительной кожей и для шерсти (с лососем и коричневым рисом)">
+										<input type="hidden" name="productPostPrice" value="620.0">
+										<button type="submit" data-productcode="00000027872"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											6&nbsp;баллов</div>
+									</div>
+								</div>
+
+
+							</li>
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" data-productcode="00000184314" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="./image/catalog/3.png"
+											alt="Pronature Holistic GRAIN FREE Нордико Беззерновой сухой корм для взрослых собак мелких и средних пород (мелкая гранула с индейкой)"
+											title="Pronature Holistic GRAIN FREE Нордико Беззерновой сухой корм для взрослых собак мелких и средних пород (мелкая гранула с индейкой), 2 кг – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" data-code="00000184314" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="4.888888888888889" data-items="9"></meter>
+								<div class="entry__title">Pronature Holistic GRAIN FREE Нордико</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Беззерновой сухой корм для взрослых собак мелких и средних пород мелкая гранула с индейкой</div>
+								</div>
+
+								<div class="weight__current">
+									<span>2 кг</span>
+								</div>
+								<div class="entry__price">
+									<div class="price__current">3&nbsp;145&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000184314" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000184314">
+										<input type="hidden" name="productNamePost"
+											value="Pronature Holistic GRAIN FREE Нордико Беззерновой сухой корм для взрослых собак мелких и средних пород (мелкая гранула с индейкой)">
+										<input type="hidden" name="productPostPrice" value="3145.0">
+										<button type="submit" data-productcode="00000184314"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											31&nbsp;балл</div>
+									</div>
+								</div>
+
+
+							</li>
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" data-productcode="00000189567" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="./image/catalog/4.jpg"
+											alt="Pronature Original NEW Сухой корм для взрослых собак всех пород (с курицей)"
+											title="Pronature Original NEW Сухой корм для взрослых собак всех пород (с курицей), 340 гр – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" data-code="00000189567" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="4.818181818181818" data-items="22"></meter>
+								<div class="entry__title">Pronature Original NEW</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Сухой корм для взрослых собак всех пород с курицей</div>
+								</div>
+
+								<div class="weight__current">
+									<span>340 гр</span>
+								</div>
+								<div class="entry__price">
+									<div class="price__current">430&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000189567" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000189567">
+										<input type="hidden" name="productNamePost"
+											value="Pronature Original NEW Сухой корм для взрослых собак всех пород (с курицей)">
+										<input type="hidden" name="productPostPrice" value="430.0">
+										<button type="submit" data-productcode="00000189567"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											4&nbsp;балла</div>
+									</div>
+								</div>
+
+
+							</li>
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" data-productcode="00000183857" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="./image/catalog/5.png"
+											alt="1st Choice Adult Toy&amp;Small Breeds Helthy Skin&amp;Coat Сухой корм для взрослых собак декоративных и мелких пород с чувствительной кожей и шерстью (с ягненком, рыбой и рисом)"
+											title="1st Choice Adult Toy&amp;Small Breeds Helthy Skin&amp;Coat Сухой корм для взрослых собак декоративных и мелких пород с чувствительной кожей и шерстью (с ягненком, рыбой и рисом), 350 гр – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" data-code="00000183857" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="4.918367346938775" data-items="49"></meter>
+								<div class="entry__title">1st Choice Adult Toy&amp;Small Breeds Helthy Skin&amp;Coat</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Сухой корм для взрослых собак декоративных и мелких пород с
+										чувствительной кожей и шерстью с ягненком, рыбой и рисом</div>
+								</div>
+
+								<div class="weight__current">
+									<span>350 гр</span>
+								</div>
+								<div class="entry__price">
+									<div class="price__current">480&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000183857" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000183857">
+										<input type="hidden" name="productNamePost"
+											value="1st Choice Adult Toy&amp;Small Breeds Helthy Skin&amp;Coat Сухой корм для взрослых собак декоративных и мелких пород с чувствительной кожей и шерстью (с ягненком, рыбой и рисом)">
+										<input type="hidden" name="productPostPrice" value="480.0">
+										<button type="submit" data-productcode="00000183857"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											22&nbsp;балла</div>
+									</div>
+								</div>
+
+
+							</li>
+							<li class="catalog__entry catalog__entry_thumb ">
+								<a href="#" target="_blank" data-productcode="00000189582" class="entry__lnk"></a>
+								<div class="entry__label entry__label_sm entry__label_hit"><span>Хит</span></div>
+								<div class="entry__photo">
+									<div class="photo__inner">
+										<img src="/medias/sys_master/images/h73/hea/8837479596062.jpg"
+											alt="Pronature Life Infiniti Сухой корм для собак и щенков всех пород (с лососем)"
+											title="Pronature Life Infiniti Сухой корм для собак и щенков всех пород (с лососем), 340 гр – интернет-магазин Ле’Муррр"
+											loading="lazy">
+									</div>
+									<div class="entry__favorite">
+										<a href="#" data-code="00000189582" class="favorite__lnk  "></a>
+										<div class="favorite__tip">В избранное</div>
+									</div>
+								</div>
+								<meter max="5" value="4.833333333333333" data-items="6"></meter>
+								<div class="entry__title">Pronature Life Infiniti</div>
+
+								<button class="quick-view" style="font-size:12px;">Быстрый просмотр</button>
+								<div class="entry__description">
+									<div class="description__inner">Сухой корм для собак и щенков всех пород с лососем</div>
+								</div>
+
+								<div class="weight__current">
+									<span>340 гр</span>
+								</div>
+								<div class="entry__price">
+									<div class="price__current">320&nbsp;р.</div>
+								</div>
+
+								<div class="entry__basket">
+									<form id="addToCartForm00000189582" class="add_to_cart_form" action="/cart/add" method="post">
+										<div class="entry__amount amount-block">
+											<input type="number" class="amount__field  js-qty-selector-input" data-factor="1" value="1"
+												min="1" max="999" data-max="" data-min="1" name="qty">
+											<a href="" class="amount__btn amount__btn_minus"></a>
+											<a href="" class="amount__btn amount__btn_plus"></a>
+										</div>
+										<input type="hidden" name="productCodePost" value="00000189582">
+										<input type="hidden" name="productNamePost"
+											value="Pronature Life Infiniti Сухой корм для собак и щенков всех пород (с лососем)">
+										<input type="hidden" name="productPostPrice" value="320.0">
+										<button type="submit" data-productcode="00000189582"
+											class="btn btn-primary btn-block glyphicon glyphicon-shopping-cart js-enable-btn btn_basket addToCart"
+											onclick="ym(40520195,'reachGoal','add_cart')"></button>
+										<div>
+											<input type="hidden" name="CSRFToken" value="d3f7f181-ebeb-48e6-9d23-9bf9f439d162">
+										</div>
+									</form>
+								</div>
+								<div class="entry__price">
+									<div class="price__bonus">
+										<div>
+											6&nbsp;баллов</div>
+									</div>
+								</div>
+
+
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+
+				<div class="index_small_banners">
+					<ul class="banners__list">
+						<li class="banners__entry">
+							<picture>
+								<img src="./image/franchise4.webp" alt="Работайте с нами!">
+							</picture>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="block_grey">
+				<div class="block">
+					<div class="brands">
+						<div class="brands__head">
+							<h2 class="brands__title">
+								<a href="#">Бренды</a>
+							</h2>
+							<a href="#" class="brands__view_all">смотреть все бренды</a>
+						</div>
+						<div class="brand-showcase">
+							<div class="brand-container">
+								<ul class="brands__list">
+									<li class="brands__entry">
+										<a href="#" class="brands__lnk">
+											<picture class="brands__img">
+												<img src="./image/brands/1st_Choice.webp" alt="">
+											</picture>
+										</a>
+									</li>
+									<li class="brands__entry">
+										<a href="#"
+											class="brands__lnk">
+											<picture class="brands__img">
+												<img src="/image/brands/2.webp" alt="">
+											</picture>
+										</a>
+									</li>
+									<li class="brands__entry">
+										<a href="#" class="brands__lnk">
+											<picture class="brands__img">
+												<img src="/image/brands/3.webp" alt="">
+											</picture>
+										</a>
+									</li>
+									<li class="brands__entry">
+										<a href="#" class="brands__lnk">
+											<picture class="brands__img">
+												<img src="/image/brands/4.webp" alt="">
+											</picture>
+										</a>
+									</li>
+									<li class="brands__entry">
+										<a href="#" class="brands__lnk">
+											<picture class="brands__img">
+												<img src="/image/brands/5.webp" alt="">
+											</picture>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h1>Интернет-магазин зоотоваров «Ле'Муррр»</h1>
+						<p class="brands__seo">
+							Сеть зоомаркетов «Ле'Муррр» - одна из крупнейших российских специализированных сетей. В 2017
+							г. - исполнилось ровно 20 лет со дня открытия первого зоомаркета сети. <br>Розничная сеть
+							товаров для животных «Ле'Муррр» в Санкт-Петербурге является партнером компании «Иванко»,
+							основанной в мае 1996 г. и специализирующейся на импорте, оптовой торговле и производстве
+							товаров для животных. Торговая сеть сотрудничает только с хорошо зарекомендовавшими себя
+							производителями и дистрибьюторами товаров для животных (Бельгия, Италия, США, Канада).
+							Именно это является гарантом высокого качества представляемой продукции. На сегодняшний день
+							федеральная сеть зоомаркетов «Ле‘Муррр» является крупнейшей сетью зоотоваров в России, а
+							франшиза бренда "Ле'Муррр" вошла в независимый рейтинг «Топ-100 франшиз России». «Ле'Муррр™»
+							объединяет 200 зоомаркетов в 43 городах России.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id=footer class="main-footer">
+		<div class="footer">
+			<div class="block">
+				<div class="footer__menu">
+					<ul class="menu__list">
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Адреса магазинов</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">О компании</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Контакты</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Вакансии</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#"
+								class="menu__lnk" target="_blank">Франшиза</a>
+						</li>
+					</ul>
+					<ul class="menu__list">
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Акции</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Новости</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Бренды</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Партнерам</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Оферта</a>
+						</li>
+					</ul>
+					<ul class="menu__list">
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Программа лояльности</a>
+						</li>
+						<li class="menu__entry">
+							<a href="#" class="menu__lnk">Условия покупки</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__market">
+					<div class="footer__title">Мы на маркете</div>
+					<a target="_blank"
+						href="#"
+						rel="nofollow">
+						<img src="/_ui/desktop/theme-lemurrr/img/images/market2.png" alt="">
+					</a>
+				</div>
+				<div class="footer__container">
+					<div class="footer__social">
+						<div class="footer__title">Мы в соцсетях</div>
+						<ul class="social__list">
+							<li class="social__entry social__entry_vk">
+								<a target="_blank" href="#" class="social__lnk" rel="nofollow"></a>
+							</li>
+							<li class="social__entry social__entry_tel">
+								<a target="_blank" href="#" class="social__lnk" rel="nofollow"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__pay-list">
+						<div class="footer__title">Способы оплаты</div>
+						<ul class="pay-list__list">
+							<li>
+								<a class="pay-list__entry pay-list__entry_visa" target="_blank" rel="nofollow"
+									href="#"></a>
+							</li>
+							<li>
+								<a class="pay-list__entry pay-list__entry_masterCard" target="_blank" rel="nofollow"
+									href="#"></a>
+							</li>
+							<li>
+								<a class="pay-list__entry pay-list__entry_mir" target="_blank" rel="nofollow"
+									href="#"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<div class="contacts__phone">
+						<a href="tel:88124487090">8 (812) 448-70-90</a>
+					</div>
+					<a href="#callback-modal" data-toggle="modal" class="contacts__btn">заказать звонок</a>
+					<a href="/?ui=mobile" class="contacts__mobile">
+						<span>мобильная версия сайта</span>
+					</a>
+				</div>
+				<div class="footer__copy">© 2024 Ле'Муррр. Все права защищены.</div>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>
